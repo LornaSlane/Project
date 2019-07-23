@@ -1,4 +1,4 @@
-package account;
+package at.lornaslane.vocabapp;
 
 public class Account {
     int accountNumber;
@@ -8,6 +8,9 @@ public class Account {
 
         this.accountNumber = pAccountNumber;
         this.userName = pUserName;
+
+        pUserName = "Lorna";
+        pAccountNumber = 12345;
 
     }
 }
