@@ -1,11 +1,11 @@
 package at.lornaslane.vocabapp;
 
 public class Card {
-    String targetWord;
-    String translation;
-    String targetLanguageCard;
+    private String targetWord;
+    private String translation;
+    private String targetLanguageCard;
 
-    Card (String targetword, String translation) {
+    public Card (String targetword, String translation) {
 
         // this.targetWord = pTargetword;
         // this.translation = pTranslation;

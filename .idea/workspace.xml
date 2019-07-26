@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9843b321-ed7f-46ba-b4c5-52ef54a0f5d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/DeckCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/menus/CardCreationMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/menus/DeckCreationMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/menus/MainMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/account/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/start/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VocabApp/at/lornaslane/vocabapp/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VocabApp/at/lornaslane/vocabapp/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VocabApp/at/lornaslane/vocabapp/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VocabApp/at/lornaslane/vocabapp/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VocabApp/at/lornaslane/vocabapp/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VocabApp/at/lornaslane/vocabapp/Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VocabApp/at/lornaslane/vocabapp/DeckCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VocabApp/at/lornaslane/vocabapp/DeckCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VocabApp/at/lornaslane/vocabapp/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VocabApp/at/lornaslane/vocabapp/Start.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/DeckCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/DeckCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Start.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +26,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/Start.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/menus/MainMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/menus/DeckCreationMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/menus/CardCreationMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,15 +74,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/DeckCollection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="270">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="165">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -58,23 +98,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <state>
+              <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/Deck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#224#225#0" expanded="true" />
                 <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,19 +137,25 @@
         <option value="$PROJECT_DIR$/src/deck/Deck.java" />
         <option value="$PROJECT_DIR$/src/card/Card.java" />
         <option value="$PROJECT_DIR$/src/start/Start.java" />
-        <option value="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Card.java" />
-        <option value="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Deck.java" />
         <option value="$PROJECT_DIR$/src/deckCollection.java" />
         <option value="$PROJECT_DIR$/src/DeckCollection.java" />
         <option value="$PROJECT_DIR$/src/at/lornaslane/DeckCollection.java" />
+        <option value="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Account.java" />
+        <option value="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Deck.java" />
         <option value="$PROJECT_DIR$/src/at/lornaslane/vocabapp/DeckCollection.java" />
+        <option value="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Mainmenu.java" />
         <option value="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Start.java" />
+        <option value="$PROJECT_DIR$/src/at/lornaslane/vocabapp/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/at/lornaslane/vocabapp/CardCreationMenu.java" />
+        <option value="$PROJECT_DIR$/src/at/lornaslane/vocabapp/DeckCreationMenu.java" />
+        <option value="$PROJECT_DIR$/src/at/lornaslane/vocabapp/menus/MainMenu.java" />
+        <option value="$PROJECT_DIR$/src/at/lornaslane/vocabapp/menus/DeckCreationMenu.java" />
+        <option value="$PROJECT_DIR$/src/at/lornaslane/vocabapp/Card.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="129" />
-    <option name="y" value="303" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -124,6 +167,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,19 +201,29 @@
               <item name="lornaslane" type="462c0819:PsiDirectoryNode" />
               <item name="vocabapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="VocabApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VocabApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="at" type="462c0819:PsiDirectoryNode" />
+              <item name="lornaslane" type="462c0819:PsiDirectoryNode" />
+              <item name="vocabapp" type="462c0819:PsiDirectoryNode" />
+              <item name="menus" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563913553896" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564177534316" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,7 +243,7 @@
       <module name="VocabApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.lornaslane.vocabapp.*" />
+          <option name="PATTERN" value="at.lornaslane.vocabapp.menus.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,20 +271,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49809885" visible="true" weight="0.2532189" />
-      <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968153" visible="true" weight="0.25679544" />
+      <window_info id="Structure" order="1" sideWeight="0.50318474" side_tool="true" visible="true" weight="0.25679544" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3299363" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.3299363" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2878981" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -238,6 +292,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -250,67 +305,80 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/ExampleProgram.java" />
-    <entry file="file://$PROJECT_DIR$/src/login/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/Card.java">
+    <entry file="file://$PROJECT_DIR$/src/login/Login.java" />
+    <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp.java" />
+    <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/Start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/Deck.java">
+    <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/menus/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/menus/DeckCreationMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/menus/CardCreationMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/DeckCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
             <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/DeckCollection.java">
+    <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/Deck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#169#170#0" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/at/lornaslane/vocabapp/Start.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
         </state>
       </provider>
     </entry>

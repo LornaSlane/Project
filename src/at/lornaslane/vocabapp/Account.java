@@ -1,8 +1,8 @@
 package at.lornaslane.vocabapp;
 
 public class Account {
-    int accountNumber;
-    String userName;
+    private int accountNumber;
+    private String userName;
 
     Account(int pAccountNumber, String pUserName) {
 
