@@ -4,11 +4,15 @@ import java.util.ArrayList;
 
 public class Deck {
 
-    ArrayList<Card>  cardsInDeck = new ArrayList<>();
+    private ArrayList<Card> cardsInDeck = new ArrayList<>();
     private String name;
 
     public Deck(String pName) {
         this.name = pName;
+    }
+
+    public void add(Card pCard) {
+        cardsInDeck.add(pCard);
     }
 
     public String getName() {
