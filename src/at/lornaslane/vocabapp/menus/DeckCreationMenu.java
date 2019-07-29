@@ -7,10 +7,8 @@ import java.util.Scanner;
 
 public class DeckCreationMenu {
 
-    public DeckCreationMenu() {
+    public DeckCreationMenu(DeckCollection myDeckCollection) {
 
-        // To be refactored
-        DeckCollection myDeckCollection = new DeckCollection();
 
         System.out.println("\n--- Create a Deck ---");
         System.out.print("Name your deck: ");

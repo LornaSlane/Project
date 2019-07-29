@@ -3,11 +3,8 @@ package at.lornaslane.vocabapp;
 import java.util.ArrayList;
 
 public class DeckCollection {
-    private ArrayList<Deck> decks;
+    private ArrayList<Deck> decks = new ArrayList<>();
 
-    public DeckCollection() {
-        decks = new ArrayList<Deck>();
-    }
 
     public void add(Deck pDeck) {
         decks.add(pDeck);
