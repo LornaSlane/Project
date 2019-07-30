@@ -5,9 +5,9 @@ import at.lornaslane.vocabapp.DeckCollection;
 
 import java.util.Scanner;
 
-public class DeckCreationMenu extends Menu {
+class DeckCreationMenu extends Menu {
 
-    public DeckCreationMenu(DeckCollection myDeckCollection) {
+    DeckCreationMenu(DeckCollection myDeckCollection) {
 
         title = "Create a Deck";
 

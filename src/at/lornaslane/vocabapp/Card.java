@@ -5,9 +5,9 @@ public class Card {
     private String translation;
     private String targetLanguageCard;
 
-    public Card (String targetword, String translation) {
+    public Card (String targetWord, String translation) {
 
-        // this.targetWord = pTargetword;
+        // this.targetWord = pTargetWord;
         // this.translation = pTranslation;
         // this.targetLanguageCard = get
     }

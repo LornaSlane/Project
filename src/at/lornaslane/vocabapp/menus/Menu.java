@@ -1,9 +1,9 @@
 package at.lornaslane.vocabapp.menus;
 
-public abstract class Menu {
-    protected String title;
+abstract class Menu {
+    String title;
 
-    public String getFormattedTitle() {
+    String getFormattedTitle() {
         return "\n--- " + this.title + " ---";
     }
 }

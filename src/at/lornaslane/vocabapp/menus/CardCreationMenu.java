@@ -5,8 +5,8 @@ import at.lornaslane.vocabapp.Deck;
 
 import java.util.Scanner;
 
-public class CardCreationMenu extends Menu {
-    public CardCreationMenu(Deck myDeck) {
+class CardCreationMenu extends Menu {
+    CardCreationMenu(Deck myDeck) {
         title = "Create a Card";
 
         System.out.println(this.getFormattedTitle());

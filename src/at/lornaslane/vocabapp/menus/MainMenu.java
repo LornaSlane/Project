@@ -1,5 +1,6 @@
 package at.lornaslane.vocabapp.menus;
 
+import at.lornaslane.vocabapp.Deck;
 import at.lornaslane.vocabapp.DeckCollection;
 
 import java.util.Scanner;
@@ -17,8 +18,9 @@ public class MainMenu extends Menu {
             System.out.println("Press 1 to create a new deck.");
             System.out.println("Press 2 to show my decks.");
             // TODO: 2019-07-29 Edit deck (including adding and deleting a card)
-            // TODO: 2019-07-29 Test a deck
-            System.out.println("Press 3 to exit");
+            // TODO: 2019-07-29 Test a deck (last)
+            System.out.println("Press 3 to delete a deck.");
+            System.out.println("Press 4 to exit");
             System.out.print("Pick an option: ");
 
             Scanner sc = new Scanner(System.in);
@@ -28,11 +30,17 @@ public class MainMenu extends Menu {
                 case 1:
                     new DeckCreationMenu(myDeckCollection);
                     break;
-                // TODO: 2019-07-29 Show actual deck names (loop through the deck - with numbering).
                 case 2:
-                    System.out.println(myDeckCollection.getDecks());
+                    int counter = 1;
+                    for (Deck deck : myDeckCollection.getDecks()) {
+                        System.out.println(counter + ". " + deck.getName());
+                        counter++;
+                    }
                     break;
                 case 3:
+                    new deleteDeckMenu(myDeckCollection);
+                    break;
+                case 4:
                     System.out.println("Bye, bye!");
                     System.exit(0);
                     break;
