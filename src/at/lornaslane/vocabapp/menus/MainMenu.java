@@ -16,7 +16,6 @@ public class MainMenu extends Menu {
             // TODO: 2019-07-30 add exception handling
             // TODO: 2019-07-29 Look at phrasing
             System.out.println(this.getFormattedTitle());
-            System.out.println("Hello, Lorna. What would you like to do today?");
             System.out.println("Press 1 to create a new deck.");
             System.out.println("Press 2 to show my decks.");
             // TODO: 2019-07-29 Edit deck (including adding and deleting a card)
@@ -33,7 +32,7 @@ public class MainMenu extends Menu {
                     new DeckCreationMenu(myDeckCollection);
                     break;
                 case 2:
-                    "\n--- Your Decks ---"
+                    System.out.println("\n--- Your Decks ---");
                     int counter = 1;
                     for (Deck deck : myDeckCollection.getDecks()) {
                         System.out.println(counter + ". " + deck.getName());
@@ -41,7 +40,7 @@ public class MainMenu extends Menu {
                     }
                     break;
                 case 3:
-                    new deleteDeckMenu(myDeckCollection);
+                    new DeleteDeckMenu(myDeckCollection);
                     break;
                 case 4:
                     System.out.println("Bye, bye!");
