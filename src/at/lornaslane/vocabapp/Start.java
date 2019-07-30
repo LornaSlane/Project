@@ -7,6 +7,7 @@ class Start {
 
         DeckCollection myDeckCollection = new DeckCollection();
 
+        // Adding predefined decks
         Deck scots = new Deck("Scots");
         scots.add(new Card("dug", "dog"));
         myDeckCollection.add(scots);

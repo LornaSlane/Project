@@ -12,6 +12,8 @@ public class MainMenu extends Menu {
         title = "Main Menu";
 
         while (true) {
+            // TODO: 2019-07-30 add default case
+            // TODO: 2019-07-30 add exception handling
             // TODO: 2019-07-29 Look at phrasing
             System.out.println(this.getFormattedTitle());
             System.out.println("Hello, Lorna. What would you like to do today?");
@@ -20,7 +22,7 @@ public class MainMenu extends Menu {
             // TODO: 2019-07-29 Edit deck (including adding and deleting a card)
             // TODO: 2019-07-29 Test a deck (last)
             System.out.println("Press 3 to delete a deck.");
-            System.out.println("Press 4 to exit");
+            System.out.println("Press 4 to exit.");
             System.out.print("Pick an option: ");
 
             Scanner sc = new Scanner(System.in);
@@ -31,6 +33,7 @@ public class MainMenu extends Menu {
                     new DeckCreationMenu(myDeckCollection);
                     break;
                 case 2:
+                    "\n--- Your Decks ---"
                     int counter = 1;
                     for (Deck deck : myDeckCollection.getDecks()) {
                         System.out.println(counter + ". " + deck.getName());
