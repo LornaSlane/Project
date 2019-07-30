@@ -26,7 +26,7 @@ public class DeckCollection {
             System.out.println(counter + ". " + deck.getName());
             counter++;
         }
-        System.out.println("Enter a number: ");
+        System.out.print("Enter a number: ");
 
         Scanner sc = new Scanner(System.in);
         return sc.nextInt();
