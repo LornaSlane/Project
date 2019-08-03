@@ -13,7 +13,7 @@ class Start {
         myDeckCollection.add(scots);
 
         Deck spanish = new Deck("Spanish");
-        scots.add(new Card("perro", "dog"));
+        spanish.add(new Card("perro", "dog"));
         myDeckCollection.add(spanish);
 
         new MainMenu(myDeckCollection);

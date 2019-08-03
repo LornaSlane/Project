@@ -16,15 +16,13 @@ class CardCreationMenu extends Menu {
         Scanner sc = new Scanner(System.in);
         String targetWord = sc.nextLine();
 
-        System.out.println("What does " + targetWord + " mean in English?");
+        System.out.println("What does \"" + targetWord + "\" mean in English?");
         System.out.print("Enter translation: ");
 
         String translation = sc.nextLine();
-        // TODO: 2019-07-29 Make it sound prettier (as above)
-        System.out.println(translation);
 
         Card myCard = new Card(targetWord, translation);
-        System.out.println(myCard);
+        System.out.println("Great! You successfully added the word \"" + targetWord + "\", meaning \"" + translation + "\"." );
         myDeck.add(myCard);
     }
 }

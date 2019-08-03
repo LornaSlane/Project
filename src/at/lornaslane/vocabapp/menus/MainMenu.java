@@ -14,14 +14,14 @@ public class MainMenu extends Menu {
         while (true) {
             // TODO: 2019-07-30 add default case
             // TODO: 2019-07-30 add exception handling
-            // TODO: 2019-07-29 Look at phrasing
             System.out.println(this.getFormattedTitle());
             System.out.println("Press 1 to create a new deck.");
             System.out.println("Press 2 to show my decks.");
             // TODO: 2019-07-29 Edit deck (including adding and deleting a card)
             // TODO: 2019-07-29 Test a deck (last)
             System.out.println("Press 3 to delete a deck.");
-            System.out.println("Press 4 to exit.");
+            System.out.println("Press 4 to modify a deck.");
+            System.out.println("Press 5 to exit.");
             System.out.print("Pick an option: ");
 
             Scanner sc = new Scanner(System.in);
@@ -43,6 +43,9 @@ public class MainMenu extends Menu {
                     new DeleteDeckMenu(myDeckCollection);
                     break;
                 case 4:
+                    new ModifyDeckMenu(myDeckCollection);
+                    break;
+                case 5:
                     System.out.println("Bye, bye!");
                     System.exit(0);
                     break;
