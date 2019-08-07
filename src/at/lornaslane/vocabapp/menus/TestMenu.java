@@ -2,7 +2,7 @@ package at.lornaslane.vocabapp.menus;
 
 import at.lornaslane.vocabapp.DeckCollection;
 
-public class TestMenu extends Menu {
+class TestMenu extends Menu {
 
     public TestMenu(DeckCollection myDeckCollection) {
         int enteredDeckNumber = myDeckCollection.selectDeck();
@@ -19,5 +19,4 @@ public class TestMenu extends Menu {
         // If the user's input is wrong, the user is told so and give the correct answer.
         // No point is added to the scoreboard
     }
-
 }

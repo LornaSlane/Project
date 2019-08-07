@@ -7,7 +7,7 @@ import at.lornaslane.vocabapp.DeckCollection;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ShowDeckMenu {
+class ShowDeckMenu {
 
     public ShowDeckMenu(DeckCollection myDeckCollection) {
         System.out.println("\n--- Your Decks ---");
@@ -29,9 +29,8 @@ public class ShowDeckMenu {
         System.out.println(userSelectedDeck.getName());
         System.out.println("--------");
 
-        for (Card card: userSelectedDeck.getCardsInDeck()) {
+        for (Card card : userSelectedDeck.getCardsInDeck()) {
             System.out.println(card.getTargetWord());
         }
     }
-
 }

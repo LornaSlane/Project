@@ -5,8 +5,8 @@ import at.lornaslane.vocabapp.Deck;
 
 import java.util.Scanner;
 
-public class AddCardMenu extends Menu {
-    public AddCardMenu(Deck myDeck) {
+class AddCardMenu extends Menu {
+    AddCardMenu(Deck myDeck) {
         title = "Add a New Card";
         System.out.println(getFormattedTitle());
 
@@ -23,9 +23,7 @@ public class AddCardMenu extends Menu {
 
         Card myCard = new Card(targetWord, translation);
         System.out.println("Great! You successfully added the word \"" + targetWord + "\", meaning \"" + translation +
-                "\" to the deck " + myDeck.getName() + "." );
+                "\" to the deck " + myDeck.getName() + ".");
         myDeck.add(myCard);
-
     }
-
 }

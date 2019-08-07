@@ -6,7 +6,7 @@ import at.lornaslane.vocabapp.DeckCollection;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ModifyDeckMenu extends Menu {
+class ModifyDeckMenu extends Menu {
     public ModifyDeckMenu(DeckCollection myDeckCollection) {
 
         title = "Modify a Deck";

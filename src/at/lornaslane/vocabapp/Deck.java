@@ -7,6 +7,7 @@ public class Deck {
 
     private final ArrayList<Card> cardsInDeck = new ArrayList<>();
     private final String name;
+
     public Deck(String pName) {
         this.name = pName;
     }
@@ -31,6 +32,8 @@ public class Deck {
             counter++;
         }
         System.out.print("Enter a number: ");
+
+        // FIXME: 2019-08-07 Error handling for wrong input
 
         Scanner sc = new Scanner(System.in);
         return sc.nextInt();

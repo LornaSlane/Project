@@ -19,6 +19,9 @@ public class DeckCollection {
         return decks;
     }
 
+
+    // FIXME: 2019-08-07 Error handling for wrong input
+
     public int selectDeck() {
         System.out.println("Chose one of the following decks: ");
         int counter = 1;
@@ -30,6 +33,5 @@ public class DeckCollection {
 
         Scanner sc = new Scanner(System.in);
         return sc.nextInt();
-
     }
 }

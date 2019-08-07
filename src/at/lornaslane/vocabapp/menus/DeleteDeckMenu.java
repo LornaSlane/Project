@@ -8,7 +8,5 @@ class DeleteDeckMenu extends Menu {
         int enteredDeckNumber = myDeckCollection.selectDeck();
 
         myDeckCollection.remove((enteredDeckNumber - 1));
-
-
-        }
     }
+}

@@ -1,12 +1,11 @@
 package at.lornaslane.vocabapp;
 
-import java.util.ArrayList;
-
 public class Card {
-    private String targetWord;
-    private String translation;
+    private final String targetWord;
+    private final String translation;
     private String targetLanguageCard;
-    public Card (String pTargetWord, String pTranslation) {
+
+    public Card(String pTargetWord, String pTranslation) {
         this.targetWord = pTargetWord;
         this.translation = pTranslation;
     }
@@ -14,5 +13,4 @@ public class Card {
     public String getTargetWord() {
         return targetWord;
     }
-
 }

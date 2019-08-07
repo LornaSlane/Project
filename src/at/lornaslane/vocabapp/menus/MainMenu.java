@@ -1,16 +1,16 @@
 package at.lornaslane.vocabapp.menus;
 
-import at.lornaslane.vocabapp.Deck;
 import at.lornaslane.vocabapp.DeckCollection;
 
 import java.util.Scanner;
 
 public class MainMenu extends Menu {
 
+    private static final int NUMBER_OF_OPERATIONS = 5;
+
     public MainMenu(DeckCollection myDeckCollection) {
 
         title = "Main Menu";
-        final int numberOfOptions = 5;
 
         while (true) {
             System.out.println(this.getFormattedTitle());
@@ -52,7 +52,8 @@ public class MainMenu extends Menu {
                     System.exit(0);
                     break;
                 default:
-                    System.out.println("Please enter a number from 1 - " + numberOfOptions + ".");
+                    System.out.println("Please enter a number from 1 - " + NUMBER_OF_OPERATIONS + ".");
+                    break;
             }
         }
     }
