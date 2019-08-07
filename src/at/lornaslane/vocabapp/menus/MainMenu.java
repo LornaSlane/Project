@@ -15,12 +15,11 @@ public class MainMenu extends Menu {
         while (true) {
             System.out.println(this.getFormattedTitle());
             System.out.println("Press 1 to create a new deck.");
-            // TODO: 2019-08-07 Option to show all cards
             System.out.println("Press 2 to show my decks.");
-            // TODO: 2019-07-29 Test a deck (last)
             System.out.println("Press 3 to delete a deck.");
             System.out.println("Press 4 to modify a deck.");
-            System.out.println("Press 5 to exit.");
+            System.out.println("Press 5 to test your knowledge!");
+            System.out.println("Press 6 to exit.");
             System.out.print("Pick an option: ");
 
             Scanner sc = new Scanner(System.in);
@@ -46,6 +45,9 @@ public class MainMenu extends Menu {
                     new ModifyDeckMenu(myDeckCollection);
                     break;
                 case 5:
+                    new TestMenu(myDeckCollection);
+                    break;
+                case 6:
                     System.out.println("Bye, bye!");
                     System.exit(0);
                     break;
