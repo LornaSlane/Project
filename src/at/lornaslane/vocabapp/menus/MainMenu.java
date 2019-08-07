@@ -10,14 +10,13 @@ public class MainMenu extends Menu {
     public MainMenu(DeckCollection myDeckCollection) {
 
         title = "Main Menu";
+        final int numberOfOptions = 5;
 
         while (true) {
-            // TODO: 2019-07-30 add default case
-            // TODO: 2019-07-30 add exception handling
             System.out.println(this.getFormattedTitle());
             System.out.println("Press 1 to create a new deck.");
+            // TODO: 2019-08-07 Option to show all cards 
             System.out.println("Press 2 to show my decks.");
-            // TODO: 2019-07-29 Edit deck (including adding and deleting a card)
             // TODO: 2019-07-29 Test a deck (last)
             System.out.println("Press 3 to delete a deck.");
             System.out.println("Press 4 to modify a deck.");
@@ -25,7 +24,13 @@ public class MainMenu extends Menu {
             System.out.print("Pick an option: ");
 
             Scanner sc = new Scanner(System.in);
-            int option = Integer.parseInt(sc.nextLine());
+
+            int option = 0;
+            try {
+                option = Integer.parseInt(sc.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input.");
+            }
 
             switch (option) {
                 case 1:
@@ -49,6 +54,8 @@ public class MainMenu extends Menu {
                     System.out.println("Bye, bye!");
                     System.exit(0);
                     break;
+                default:
+                    System.out.println("Please enter a number from 1 - " + numberOfOptions + ".");
             }
         }
     }

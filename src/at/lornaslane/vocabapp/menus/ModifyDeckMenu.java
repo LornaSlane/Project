@@ -32,8 +32,12 @@ public class ModifyDeckMenu extends Menu {
 
 
         switch (option) {
+            case 1:
+                new AddCardMenu(selectedDeck);
+                break;
             case 2:
                 new DeleteCardMenu(selectedDeck);
+                break;
 
         }
 
