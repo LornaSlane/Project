@@ -10,6 +10,7 @@ class Start {
         // Adding predefined decks
         Deck scots = new Deck("Scots");
         scots.add(new Card("dug", "dog"));
+        scots.add(new Card("bairn", "child"));
         myDeckCollection.add(scots);
 
         Deck spanish = new Deck("Spanish");
