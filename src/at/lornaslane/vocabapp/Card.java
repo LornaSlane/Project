@@ -10,6 +10,10 @@ public class Card {
         this.translation = pTranslation;
     }
 
+    public String getTranslation() {
+        return translation;
+    }
+
     public String getTargetWord() {
         return targetWord;
     }

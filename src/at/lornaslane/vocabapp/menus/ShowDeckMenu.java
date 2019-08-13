@@ -5,23 +5,15 @@ import at.lornaslane.vocabapp.Deck;
 import at.lornaslane.vocabapp.DeckCollection;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
-class ShowDeckMenu {
+class ShowDeckMenu extends Menu {
 
     public ShowDeckMenu(DeckCollection myDeckCollection) {
-        System.out.println("\n--- Your Decks ---");
-        int counter = 1;
-        for (
-                Deck deck : myDeckCollection.getDecks()) {
-            System.out.println(counter + ". " + deck.getName());
-            counter++;
-        }
-        System.out.println("Which deck would you like to view?");
-        System.out.println("Enter the deck number: ");
 
-        Scanner sc = new Scanner(System.in);
-        int option = Integer.parseInt(sc.nextLine());
+        title =  "Your Decks";
+        System.out.println("Which deck would you like to view?");
+
+        int option = myDeckCollection.selectDeck();
 
         ArrayList<Deck> allDecks = myDeckCollection.getDecks();
         Deck userSelectedDeck = allDecks.get(option - 1);

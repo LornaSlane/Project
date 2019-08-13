@@ -19,19 +19,36 @@ public class DeckCollection {
         return decks;
     }
 
-
-    // FIXME: 2019-08-07 Error handling for wrong input
-
     public int selectDeck() {
-        System.out.println("Chose one of the following decks: ");
-        int counter = 1;
-        for (Deck deck : getDecks()) {
-            System.out.println(counter + ". " + deck.getName());
-            counter++;
-        }
-        System.out.print("Enter a number: ");
 
-        Scanner sc = new Scanner(System.in);
-        return sc.nextInt();
+        int deckSelected;
+
+        while (true) {
+            System.out.println("Chose one of the following decks: ");
+            int counter = 1;
+            for (Deck deck : getDecks()) {
+                System.out.println(counter + ". " + deck.getName());
+                counter++;
+            }
+            System.out.print("Enter a number: ");
+
+            Scanner sc = new Scanner(System.in);
+
+            try {
+                deckSelected = Integer.parseInt(sc.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input.");
+                continue;
+            }
+
+            if (deckSelected > decks.size() || deckSelected == 0) {
+                System.out.println("Invalid input.");
+            } else {
+                break;
+            }
+        }
+
+        return deckSelected;
     }
-}
+    }
+

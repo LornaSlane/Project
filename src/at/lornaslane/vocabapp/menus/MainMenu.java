@@ -45,7 +45,7 @@ public class MainMenu extends Menu {
                     new ModifyDeckMenu(myDeckCollection);
                     break;
                 case 5:
-                    new TestMenu(myDeckCollection);
+                    new ExerciseMenu(myDeckCollection);
                     break;
                 case 6:
                     System.out.println("Bye, bye!");
