@@ -23,6 +23,8 @@ public class DeckCollection {
 
         int deckSelected;
 
+        // TODO: 2019-08-14 change to do while
+
         while (true) {
             System.out.println("Chose one of the following decks: ");
             int counter = 1;
@@ -50,5 +52,5 @@ public class DeckCollection {
 
         return deckSelected;
     }
-    }
+}
 

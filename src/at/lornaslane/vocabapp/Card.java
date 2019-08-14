@@ -1,9 +1,9 @@
 package at.lornaslane.vocabapp;
 
 public class Card {
+    // TODO: 2019-08-14 implement nameable interface (make SAM)
     private final String targetWord;
     private final String translation;
-    private String targetLanguageCard;
 
     public Card(String pTargetWord, String pTranslation) {
         this.targetWord = pTargetWord;

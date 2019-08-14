@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Deck {
 
+    // TODO: 2019-08-14 implement nameable interface (make SAM)
+
     private final ArrayList<Card> cardsInDeck = new ArrayList<>();
     private final String name;
 

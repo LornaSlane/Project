@@ -28,9 +28,11 @@ class ExerciseMenu extends Menu {
         System.out.println("--------");
 
         for (Card card : userSelectedDeck.getCardsInDeck()) {
-            Exercise.testUserOnCard(card);
+            Exercise.testUser(card);
 
         }
+
+        System.out.println("Well done! You completed the exercise!");
 
         // TODO: 2019-08-07 Create scoreboard
 

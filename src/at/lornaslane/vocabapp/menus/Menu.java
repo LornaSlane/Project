@@ -6,4 +6,5 @@ abstract class Menu {
     String getFormattedTitle() {
         return "\n--- " + this.title + " ---";
     }
+
 }

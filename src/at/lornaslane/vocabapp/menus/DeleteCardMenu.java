@@ -6,6 +6,9 @@ class DeleteCardMenu extends Menu {
 
     public DeleteCardMenu(Deck myDeck) {
 
+        // TODO: 2019-08-14 extend new card menu
+        // TODO: 2019-08-14 add constructor chaining
+
         title = "Delete a Card";
         System.out.println(getFormattedTitle());
 

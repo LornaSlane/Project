@@ -7,12 +7,16 @@ import java.util.Scanner;
 
 class AddCardMenu extends Menu {
     AddCardMenu(Deck myDeck) {
+
+        // TODO: 2019-08-14 extend new card menu
+        // TODO: 2019-08-14 add constructor chaining
         title = "Add a New Card";
         System.out.println(getFormattedTitle());
 
         System.out.println("What word would you like to add?");
         System.out.print("Enter word: ");
 
+        // TODO: 2019-08-14 extract method for user input including trim
         Scanner sc = new Scanner(System.in);
         String targetWord = sc.nextLine();
 
