@@ -1,13 +1,15 @@
-package at.lornaslane.vocabapp.menus;
+package at.lornaslane.vocabapp.menus.deck;
 
 import at.lornaslane.vocabapp.Deck;
 import at.lornaslane.vocabapp.DeckCollection;
+import at.lornaslane.vocabapp.menus.Menu;
+import at.lornaslane.vocabapp.menus.card.CreateCardMenu;
 
 import java.util.Scanner;
 
-class DeckCreationMenu extends Menu {
+public class CreateDeckMenu extends Menu {
 
-    DeckCreationMenu(DeckCollection myDeckCollection) {
+    public CreateDeckMenu(DeckCollection myDeckCollection) {
 
         title = "Create a Deck";
 
@@ -23,6 +25,6 @@ class DeckCreationMenu extends Menu {
 
         System.out.println("You have successfully created the deck " + myDeck.getName() + "!");
 
-        new CardCreationMenu(myDeck);
+        new CreateCardMenu(myDeck);
     }
 }

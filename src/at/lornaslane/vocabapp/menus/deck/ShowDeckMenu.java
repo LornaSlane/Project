@@ -1,12 +1,13 @@
-package at.lornaslane.vocabapp.menus;
+package at.lornaslane.vocabapp.menus.deck;
 
 import at.lornaslane.vocabapp.Card;
 import at.lornaslane.vocabapp.Deck;
 import at.lornaslane.vocabapp.DeckCollection;
+import at.lornaslane.vocabapp.menus.Menu;
 
 import java.util.ArrayList;
 
-class ShowDeckMenu extends Menu {
+public class ShowDeckMenu extends Menu {
 
     public ShowDeckMenu(DeckCollection myDeckCollection) {
 

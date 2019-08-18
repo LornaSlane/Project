@@ -1,12 +1,16 @@
 package at.lornaslane.vocabapp.menus;
 
 import at.lornaslane.vocabapp.DeckCollection;
+import at.lornaslane.vocabapp.menus.deck.CreateDeckMenu;
+import at.lornaslane.vocabapp.menus.deck.DeleteDeckMenu;
+import at.lornaslane.vocabapp.menus.deck.ModifyDeckMenu;
+import at.lornaslane.vocabapp.menus.deck.ShowDeckMenu;
 
 import java.util.Scanner;
 
 public class MainMenu extends Menu {
 
-    private static final int NUMBER_OF_OPERATIONS = 5;
+    private static final int NUMBER_OF_OPTIONS = 5;
 
     public MainMenu(DeckCollection myDeckCollection) {
 
@@ -33,7 +37,7 @@ public class MainMenu extends Menu {
 
             switch (option) {
                 case 1:
-                    new DeckCreationMenu(myDeckCollection);
+                    new CreateDeckMenu(myDeckCollection);
                     break;
                 case 2:
                     new ShowDeckMenu(myDeckCollection);
@@ -52,7 +56,7 @@ public class MainMenu extends Menu {
                     System.exit(0);
                     break;
                 default:
-                    System.out.println("Please enter a number from 1 - " + NUMBER_OF_OPERATIONS + ".");
+                    System.out.println("Please enter a number from 1 - " + NUMBER_OF_OPTIONS + ".");
                     break;
             }
         }

@@ -1,8 +1,9 @@
-package at.lornaslane.vocabapp.menus;
+package at.lornaslane.vocabapp.menus.card;
 
 import at.lornaslane.vocabapp.Deck;
+import at.lornaslane.vocabapp.menus.Menu;
 
-class DeleteCardMenu extends Menu {
+public class DeleteCardMenu extends Menu {
 
     public DeleteCardMenu(Deck myDeck) {
 

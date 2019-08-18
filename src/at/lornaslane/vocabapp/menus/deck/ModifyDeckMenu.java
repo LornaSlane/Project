@@ -1,12 +1,15 @@
-package at.lornaslane.vocabapp.menus;
+package at.lornaslane.vocabapp.menus.deck;
 
 import at.lornaslane.vocabapp.Deck;
 import at.lornaslane.vocabapp.DeckCollection;
+import at.lornaslane.vocabapp.menus.Menu;
+import at.lornaslane.vocabapp.menus.card.AddCardMenu;
+import at.lornaslane.vocabapp.menus.card.DeleteCardMenu;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class ModifyDeckMenu extends Menu {
+public class ModifyDeckMenu extends Menu {
     public ModifyDeckMenu(DeckCollection myDeckCollection) {
 
         title = "Modify a Deck";
