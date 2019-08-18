@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercise {
 
-    public static void testUser(Card testedCard) {
+    private static void testUser(Card testedCard) {
 
         for (int triesLeft = 2; triesLeft >= 0; triesLeft--) {
 
@@ -26,7 +26,16 @@ public class Exercise {
         }
     }
 
-    public static void testUser(Deck testedDeck) {
-        // TODO: 2019-08-14 extract from exercise menu 
+    public static void testUser(Deck userSelectedDeck) {
+        System.out.println("You have chosen to test your knowledge of " + userSelectedDeck.getName() + ".");
+
+        System.out.println(userSelectedDeck.getName());
+        System.out.println("--------");
+
+        for (Card card : userSelectedDeck.getCardsInDeck()) {
+            Exercise.testUser(card);
+        }
+
+        System.out.println("Well done! You completed the exercise!");
     }
 }
