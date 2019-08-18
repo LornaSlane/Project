@@ -7,11 +7,13 @@ import at.lornaslane.vocabapp.menus.Menu;
 
 import java.util.ArrayList;
 
-public class ShowDeckMenu extends Menu {
+public class ViewDeckMenu extends DeckMenu {
 
-    public ShowDeckMenu(DeckCollection myDeckCollection) {
+    public ViewDeckMenu(DeckCollection myDeckCollection) {
 
-        title =  "Your Decks";
+        title =  "View";
+        System.out.println(this.getFormattedTitle());
+
         System.out.println("Which deck would you like to view?");
 
         int option = myDeckCollection.selectDeck();

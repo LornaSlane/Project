@@ -9,10 +9,10 @@ import at.lornaslane.vocabapp.menus.card.DeleteCardMenu;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ModifyDeckMenu extends Menu {
+public class ModifyDeckMenu extends DeckMenu {
     public ModifyDeckMenu(DeckCollection myDeckCollection) {
 
-        title = "Modify a Deck";
+        title = "Modify";
         System.out.println(this.getFormattedTitle());
 
         System.out.println("Enter a number to select a deck: ");

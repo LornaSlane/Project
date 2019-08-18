@@ -2,18 +2,17 @@ package at.lornaslane.vocabapp.menus.card;
 
 import at.lornaslane.vocabapp.Card;
 import at.lornaslane.vocabapp.Deck;
-import at.lornaslane.vocabapp.menus.Menu;
 
 import java.util.Scanner;
 
-public class CreateCardMenu extends Menu {
+public class CreateCardMenu extends CardMenu {
 
     public CreateCardMenu(Deck myDeck) {
-        // TODO: 2019-08-14 extend new card menu
-        // TODO: 2019-08-14 add constructor chaining
-        title = "Create a Card";
 
+        // TODO: 2019-08-14 add constructor chaining
+        title = "Create";
         System.out.println(this.getFormattedTitle());
+
         System.out.println("What word would you like to learn?");
         System.out.print("Enter word: ");
 

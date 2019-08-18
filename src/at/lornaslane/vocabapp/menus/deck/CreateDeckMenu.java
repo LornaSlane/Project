@@ -7,13 +7,13 @@ import at.lornaslane.vocabapp.menus.card.CreateCardMenu;
 
 import java.util.Scanner;
 
-public class CreateDeckMenu extends Menu {
+public class CreateDeckMenu extends DeckMenu {
 
     public CreateDeckMenu(DeckCollection myDeckCollection) {
 
-        title = "Create a Deck";
-
+        title = "Create";
         System.out.println(this.getFormattedTitle());
+
         System.out.print("Name your deck: ");
 
         Scanner sc = new Scanner(System.in);

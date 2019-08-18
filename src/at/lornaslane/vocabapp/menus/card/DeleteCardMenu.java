@@ -1,17 +1,14 @@
 package at.lornaslane.vocabapp.menus.card;
 
 import at.lornaslane.vocabapp.Deck;
-import at.lornaslane.vocabapp.menus.Menu;
 
-public class DeleteCardMenu extends Menu {
+public class DeleteCardMenu extends CardMenu {
 
     public DeleteCardMenu(Deck myDeck) {
-
-        // TODO: 2019-08-14 extend new card menu
         // TODO: 2019-08-14 add constructor chaining
 
-        title = "Delete a Card";
-        System.out.println(getFormattedTitle());
+        title = "Delete";
+        System.out.println(this.getFormattedTitle());
 
         int enteredCardNumber = myDeck.selectCard();
 
