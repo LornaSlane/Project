@@ -5,21 +5,27 @@ import java.util.Scanner;
 public class Exercise {
 
     public static void testUser(Card testedCard) {
-        System.out.println("Enter the translation for \"" + testedCard.getTargetWord() + "\":");
 
-        Scanner sc = new Scanner(System.in);
-        String userAnswer = sc.nextLine();
+        for (int triesLeft = 2; triesLeft >= 0; triesLeft--) {
 
-        if (userAnswer.equals(testedCard.getTranslation())) {
-            System.out.println("Correct! You get a cookie!");
-        } else {
-            System.out.println("Oh no! Try again!");
+            System.out.println("Enter the translation for \"" + testedCard.getTargetWord() + "\":");
 
-            // TODO: 2019-08-14 get user to try again two more times (classic for loop) 
-            
+            Scanner sc = new Scanner(System.in);
+            String userAnswer = sc.nextLine();
+
+            if (userAnswer.equals(testedCard.getTranslation())) {
+                System.out.println("Correct! You get a cookie!");
+                break;
+            } else if (triesLeft > 1) {
+                System.out.println("Oh no! Try again! You have " + triesLeft + " tries left.");
+            } else if (triesLeft == 1) {
+                System.out.println("Oh no! Try again! You have " + triesLeft + " try left.");
+            } else {
+                System.out.println("Oh no! The correct translation would have been \"" + testedCard.getTranslation() + "\". Try the next one!");
+            }
         }
     }
-    
+
     public static void testUser(Deck testedDeck) {
         // TODO: 2019-08-14 extract from exercise menu 
     }
