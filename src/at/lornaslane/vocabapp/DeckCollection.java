@@ -21,11 +21,9 @@ public class DeckCollection {
 
     public int selectDeck() {
 
-        int deckSelected;
+        int deckSelected = 0;
 
-        // TODO: 2019-08-14 change to do while
-
-        while (true) {
+        do {
             System.out.println("Chose one of the following decks: ");
             int counter = 1;
             for (Deck deck : getDecks()) {
@@ -43,12 +41,11 @@ public class DeckCollection {
                 continue;
             }
 
-            if (deckSelected > decks.size() || deckSelected == 0) {
+            if (deckSelected > decks.size() || deckSelected < 1) {
                 System.out.println("Invalid input.");
-            } else {
-                break;
+                deckSelected = 0;
             }
-        }
+        } while (deckSelected == 0);
 
         return deckSelected;
     }
