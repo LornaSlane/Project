@@ -25,7 +25,7 @@ public class ViewDeckMenu extends DeckMenu {
         System.out.println("--------");
 
         for (Card card : userSelectedDeck.getCardsInDeck()) {
-            System.out.println(card.getTargetWord());
+            System.out.println(card.getName());
         }
     }
 }

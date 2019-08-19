@@ -1,7 +1,6 @@
 package at.lornaslane.vocabapp;
 
-public class Card {
-    // TODO: 2019-08-14 implement nameable interface (make SAM)
+public class Card implements Nameable {
     private final String targetWord;
     private final String translation;
 
@@ -16,5 +15,9 @@ public class Card {
 
     public String getTargetWord() {
         return targetWord;
+    }
+
+    public String getName() {
+        return targetWord + " – " + translation;
     }
 }

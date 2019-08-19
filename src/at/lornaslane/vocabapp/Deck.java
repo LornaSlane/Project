@@ -3,9 +3,7 @@ package at.lornaslane.vocabapp;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Deck {
-
-    // TODO: 2019-08-14 implement nameable interface (make SAM)
+public class Deck implements Nameable {
 
     private final ArrayList<Card> cardsInDeck = new ArrayList<>();
     private final String name;
