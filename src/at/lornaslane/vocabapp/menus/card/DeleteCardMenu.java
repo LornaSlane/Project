@@ -5,10 +5,8 @@ import at.lornaslane.vocabapp.Deck;
 public class DeleteCardMenu extends CardMenu {
 
     public DeleteCardMenu(Deck myDeck) {
-        // TODO: 2019-08-14 add constructor chaining
 
-        title = "Delete";
-        System.out.println(this.getFormattedTitle());
+        super("Delete");
 
         int enteredCardNumber = myDeck.selectCard();
 

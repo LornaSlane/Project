@@ -9,9 +9,7 @@ public class AddCardMenu extends CardMenu {
 
     public AddCardMenu(Deck myDeck) {
 
-        // TODO: 2019-08-14 add constructor chaining
-        title = "Add";
-        System.out.println(this.getFormattedTitle());
+        super("Add");
 
         System.out.println("What word would you like to add?");
         System.out.print("Enter word: ");

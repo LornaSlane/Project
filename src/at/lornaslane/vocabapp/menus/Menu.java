@@ -1,7 +1,15 @@
 package at.lornaslane.vocabapp.menus;
 
 public abstract class Menu {
-    protected String title;
+    protected final String title;
+
+    protected Menu(String pTitle) {
+        this.title = pTitle;
+
+        if (this.title != "") {
+            System.out.println(this.getFormattedTitle());
+        }
+    }
 
     protected abstract String getFormattedTitle();
 }

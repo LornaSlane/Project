@@ -8,8 +8,7 @@ class ExerciseMenu extends DefaultMenu {
 
     public ExerciseMenu(DeckCollection myDeckCollection) {
 
-        title = "Test Your Knowledge";
-        System.out.println(this.getFormattedTitle());
+        super("Test Your Knowledge");
 
         int enteredDeckNumber = myDeckCollection.selectDeck();
 

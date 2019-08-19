@@ -20,6 +20,7 @@ public class Deck implements Nameable {
         cardsInDeck.add(pCard);
     }
 
+    @Override
     public String getName() {
         return name;
     }

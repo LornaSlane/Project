@@ -1,5 +1,5 @@
 package at.lornaslane.vocabapp;
 
-public interface Nameable {
-    abstract String getName();
+interface Nameable {
+    String getName();
 }

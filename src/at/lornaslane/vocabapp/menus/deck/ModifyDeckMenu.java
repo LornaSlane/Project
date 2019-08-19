@@ -2,7 +2,6 @@ package at.lornaslane.vocabapp.menus.deck;
 
 import at.lornaslane.vocabapp.Deck;
 import at.lornaslane.vocabapp.DeckCollection;
-import at.lornaslane.vocabapp.menus.Menu;
 import at.lornaslane.vocabapp.menus.card.AddCardMenu;
 import at.lornaslane.vocabapp.menus.card.DeleteCardMenu;
 
@@ -12,8 +11,7 @@ import java.util.Scanner;
 public class ModifyDeckMenu extends DeckMenu {
     public ModifyDeckMenu(DeckCollection myDeckCollection) {
 
-        title = "Modify";
-        System.out.println(this.getFormattedTitle());
+        super("Modify");
 
         System.out.println("Enter a number to select a deck: ");
 

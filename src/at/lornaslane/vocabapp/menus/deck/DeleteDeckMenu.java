@@ -1,10 +1,11 @@
 package at.lornaslane.vocabapp.menus.deck;
 
 import at.lornaslane.vocabapp.DeckCollection;
-import at.lornaslane.vocabapp.menus.Menu;
 
 public class DeleteDeckMenu extends DeckMenu {
     public DeleteDeckMenu(DeckCollection myDeckCollection) {
+
+        super("Delete");
 
         int enteredDeckNumber = myDeckCollection.selectDeck();
 

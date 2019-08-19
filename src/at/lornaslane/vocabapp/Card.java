@@ -17,6 +17,7 @@ public class Card implements Nameable {
         return targetWord;
     }
 
+    @Override
     public String getName() {
         return targetWord + " – " + translation;
     }

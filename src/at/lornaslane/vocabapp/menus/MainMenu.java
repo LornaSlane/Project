@@ -14,10 +14,10 @@ public class MainMenu extends DefaultMenu {
 
     public MainMenu(DeckCollection myDeckCollection) {
 
-        title = "Main Menu";
+        super("");
 
         while (true) {
-            System.out.println(this.getFormattedTitle());
+            System.out.println("\n--- Main Menu ---");
             System.out.println("Press 1 to create a new deck.");
             System.out.println("Press 2 to view a decks.");
             System.out.println("Press 3 to delete a deck.");
