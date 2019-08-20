@@ -6,7 +6,7 @@ public abstract class Menu {
     protected Menu(String pTitle) {
         this.title = pTitle;
 
-        if (this.title != "") {
+        if (!this.title.equals("")) {
             System.out.println(this.getFormattedTitle());
         }
     }
