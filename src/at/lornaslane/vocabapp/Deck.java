@@ -26,18 +26,34 @@ public class Deck implements Nameable {
     }
 
     public int selectCard() {
-        System.out.println("Chose one of the following cards: ");
-        int counter = 1;
-        for (Card myCard : this.getCardsInDeck()) {
-            System.out.println(counter + ". " + myCard.getTargetWord());
-            counter++;
-        }
-        System.out.print("Enter a number: ");
+        int cardSelected = 0;
 
-        // FIXME: 2019-08-07 Error handling for wrong input
+        do {
+            System.out.println("Chose one of the following cards: ");
+            int counter = 1;
+            for (Card myCard : this.getCardsInDeck()) {
+                System.out.println(counter + ". " + myCard.getTargetWord());
+                counter++;
+            }
+            System.out.print("Enter a number: ");
 
-        Scanner sc = new Scanner(System.in);
-        return sc.nextInt();
+            Scanner sc = new Scanner(System.in);
+
+            try {
+                cardSelected = Integer.parseInt(sc.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input.");
+                continue;
+            }
+
+            if (cardSelected > cardsInDeck.size() || cardSelected < 1) {
+                System.out.println("Invalid input.");
+                cardSelected = 0;
+            }
+        } while (cardSelected == 0);
+
+        return cardSelected;
+
     }
 
     public void remove(int pCardIndex) {
