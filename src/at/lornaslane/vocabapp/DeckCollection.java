@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class DeckCollection {
     private final ArrayList<Deck> decks = new ArrayList<>();
 
-
     public void add(Deck pDeck) {
         decks.add(pDeck);
     }

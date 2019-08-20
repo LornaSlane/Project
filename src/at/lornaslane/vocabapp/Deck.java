@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Deck implements Nameable {
 
     private final ArrayList<Card> cardsInDeck = new ArrayList<>();
-    private final String name;
+    protected final String name;
 
     public Deck(String pName) {
         this.name = pName;
@@ -22,7 +22,7 @@ public class Deck implements Nameable {
 
     @Override
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public int selectCard() {

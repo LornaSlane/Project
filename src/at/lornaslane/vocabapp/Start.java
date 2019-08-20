@@ -8,7 +8,12 @@ class Start {
         DeckCollection myDeckCollection = new DeckCollection();
 
         // Adding predefined decks
-        Deck scots = new Deck("Scots");
+        Deck scots = new Deck("Scots") {
+            @Override
+            public String getName() {
+                return this.name + " (predefined)";
+            }
+        };
         scots.add(new Card("auld", "old"));
         scots.add(new Card("aye", "yes"));
         scots.add(new Card("bahoochie", "backside"));
@@ -29,7 +34,12 @@ class Start {
         scots.add(new Card("wee nyaff", "little nuisance"));
         myDeckCollection.add(scots);
 
-        Deck spanish = new Deck("Spanish");
+        Deck spanish = new Deck("Spanish") {
+            @Override
+            public String getName() {
+                return this.name + " (predefined)";
+            }
+        };;
         spanish.add(new Card("perro", "dog"));
         myDeckCollection.add(spanish);
 
