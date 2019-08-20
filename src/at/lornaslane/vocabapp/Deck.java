@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Deck implements Nameable {
 
     private final ArrayList<Card> cardsInDeck = new ArrayList<>();
-    protected final String name;
+    final String name;
 
     public Deck(String pName) {
         this.name = pName;

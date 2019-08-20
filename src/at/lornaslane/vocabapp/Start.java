@@ -3,11 +3,11 @@ package at.lornaslane.vocabapp;
 import at.lornaslane.vocabapp.menus.MainMenu;
 
 class Start {
-    public static void main(String[] args) {
 
-        DeckCollection myDeckCollection = new DeckCollection();
+    private static final DeckCollection myDeckCollection = new DeckCollection();
 
-        // Adding predefined decks
+    // Add predefined Scots decks
+    static {
         Deck scots = new Deck("Scots") {
             @Override
             public String getName() {
@@ -33,16 +33,22 @@ class Start {
         scots.add(new Card("wee", "little"));
         scots.add(new Card("wee nyaff", "little nuisance"));
         myDeckCollection.add(scots);
+    }
 
+    // Add predefined Scots decks
+    static {
         Deck spanish = new Deck("Spanish") {
             @Override
             public String getName() {
                 return this.name + " (predefined)";
             }
-        };;
+        };
+
         spanish.add(new Card("perro", "dog"));
         myDeckCollection.add(spanish);
+    }
 
+    public static void main(String[] args) {
         new MainMenu(myDeckCollection);
     }
 }
