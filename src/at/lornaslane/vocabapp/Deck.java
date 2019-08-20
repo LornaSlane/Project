@@ -40,7 +40,7 @@ public class Deck implements Nameable {
             Scanner sc = new Scanner(System.in);
 
             try {
-                cardSelected = Integer.parseInt(sc.nextLine());
+                cardSelected = Integer.parseInt(sc.nextLine().trim());
             } catch (NumberFormatException e) {
                 System.out.println("Invalid input.");
                 continue;

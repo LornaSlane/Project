@@ -15,7 +15,7 @@ public class CreateDeckMenu extends DeckMenu {
         System.out.print("Name your deck: ");
 
         Scanner sc = new Scanner(System.in);
-        String deckName = sc.nextLine();
+        String deckName = sc.nextLine().trim();
 
         Deck myDeck = new Deck(deckName);
 

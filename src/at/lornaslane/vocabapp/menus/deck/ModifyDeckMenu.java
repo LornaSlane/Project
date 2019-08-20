@@ -28,7 +28,7 @@ public class ModifyDeckMenu extends DeckMenu {
         System.out.println("Press 2 to delete a card.");
 
         Scanner sc = new Scanner(System.in);
-        int option = Integer.parseInt(sc.nextLine());
+        int option = Integer.parseInt(sc.nextLine().trim());
 
 
 

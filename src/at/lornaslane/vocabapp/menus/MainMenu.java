@@ -30,7 +30,7 @@ public class MainMenu extends DefaultMenu {
 
             int option = 0;
             try {
-                option = Integer.parseInt(sc.nextLine());
+                option = Integer.parseInt(sc.nextLine().trim());
             } catch (NumberFormatException e) {
                 System.out.println("Invalid input.");
             }

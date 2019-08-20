@@ -35,7 +35,7 @@ public class DeckCollection {
             Scanner sc = new Scanner(System.in);
 
             try {
-                deckSelected = Integer.parseInt(sc.nextLine());
+                deckSelected = Integer.parseInt(sc.nextLine().trim());
             } catch (NumberFormatException e) {
                 System.out.println("Invalid input.");
                 continue;

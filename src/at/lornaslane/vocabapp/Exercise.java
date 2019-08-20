@@ -11,7 +11,7 @@ public class Exercise {
             System.out.println("Enter the translation for \"" + testedCard.getTargetWord() + "\":");
 
             Scanner sc = new Scanner(System.in);
-            String userAnswer = sc.nextLine();
+            String userAnswer = sc.nextLine().trim();
 
             if (userAnswer.equals(testedCard.getTranslation())) {
                 System.out.println("Correct! You get a cookie!");
