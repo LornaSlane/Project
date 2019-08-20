@@ -19,7 +19,7 @@ public class MainMenu extends DefaultMenu {
         while (true) {
             System.out.println("\n--- Main Menu ---");
             System.out.println("Press 1 to create a new deck.");
-            System.out.println("Press 2 to view a decks.");
+            System.out.println("Press 2 to view a deck.");
             System.out.println("Press 3 to delete a deck.");
             System.out.println("Press 4 to modify a deck.");
             System.out.println("Press 5 to test your knowledge.");
